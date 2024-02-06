@@ -5,25 +5,21 @@
     "scripts": {
         "dev": "next",
         "build": "next build",
-        "start": "next start",
-        "postinstall": "prisma generate"
+        "start": "next start"
     },
     "keywords": [],
     "author": "",
     "license": "MIT",
     "dependencies": {
-        "@prisma/client": "^5.9.1",
-        "next": "12.0.10",
-        "react": "17.0.2",
-        "react-dom": "17.0.2",
-        "react-markdown": "8.0.0",
-        "vercel": "^33.4.1"
+        "next": "^14.1.0",
+        "react": "^18.2.0",
+        "react-dom": "^18.2.0",
+        "react-markdown": "^9.0.1"
     },
     "devDependencies": {
-        "@types/node": "17.0.14",
-        "@types/react": "17.0.38",
-        "eslint": "^8.56.0",
-        "prisma": "^5.9.1",
-        "typescript": "4.5.5"
+        "@prisma/client": "^5.9.1",
+        "@types/node": "^20.11.16",
+        "@types/react": "^18.2.55",
+        "typescript": "^5.3.3"
     }
 }
