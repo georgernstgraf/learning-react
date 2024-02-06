@@ -8,3 +8,4 @@ const App = ({ Component, pageProps }: AppProps) => {
         </SessionProvider>
     );
 };
+export default App;
