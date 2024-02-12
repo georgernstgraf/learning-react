@@ -1,0 +1,30 @@
+{
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "node",
+            "request": "launch",
+            "name": "Next: Node",
+            "runtimeExecutable": "${workspaceFolder}/node_modules/.bin/next",
+            "env": {
+                "NODE_OPTIONS": "--inspect"
+            },
+            "console": "integratedTerminal"
+            //"internalConsoleOptions": "neverOpen"
+        },
+        {
+            "type": "firefox",
+            "request": "launch",
+            "name": "Next: Firefox",
+            "url": "http://localhost:3000",
+            "webRoot": "${workspaceFolder}",
+            "reAttach": true
+        }
+    ],
+    "compounds": [
+        {
+            "name": "Next: Full",
+            "configurations": ["Next: Node", "Next: Firefox"]
+        }
+    ]
+}
