@@ -4,7 +4,8 @@ I am learning react
 
 ## HOW?
 
-<https://vercel.com/guides/nextjs-prisma-postgres>
+- <https://vercel.com/guides/nextjs-prisma-postgres>
+- <https://learning-react-one-psi.vercel.app/>
 
 ## working
 
